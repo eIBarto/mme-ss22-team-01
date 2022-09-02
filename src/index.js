@@ -1,5 +1,5 @@
-function init() {
-    console.log("### Starting MME Project ###"); // eslint-disable-line no-console
-}
+"use strict";
 
-init();
+import BGAuthController from "./Controllers/BGAuthController.js";
+
+const controller = new BGAuthController();
